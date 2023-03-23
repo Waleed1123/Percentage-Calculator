@@ -9,7 +9,7 @@
 
 .heading{
     color: #6CA14C;
-    font-size: 3rem;
+    font-size: 100%;
 }
 .mainh1{
     color: #B0C24D;
@@ -33,19 +33,19 @@
     margin-top: 2rem;
 }
 
-@media only screen and (min-width: 425px) {
+@media only screen and (max-width: 425px) {
     img {
       border: solid black;
-      height: 10rem;
+      height: 100%;
     }
     .btn{
         size: 2rem;
     }
     .heading{
-        font-size: 1rem;
+        font-size: 100%;
     }
     .mainh1{
-        size: 1rem;
+        size: 100%;
 
     }
 }
